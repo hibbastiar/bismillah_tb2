@@ -1,0 +1,74 @@
+/* file Ticket.css */
+
+.banner-image {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: 0.5fr 3fr 0.5fr;
+    grid-gap: 90px;
+    height: 100vh;
+  }
+  
+  .custom-table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 30px;
+  }
+  
+  .custom-table th {
+    padding-left: 40px;
+    text-align: left;
+  }
+  
+  .custom-table td {
+    font-size: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: left;
+  }
+  
+  .custom-table td:last-child {
+    text-align: right;
+  }
+  
+  .ticket-controls {
+    align-items: center;
+  }
+  
+  .ticket-button {
+    padding: 4px 8px;
+    background-color: #818080;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .ticket-button:hover {
+    background-color: #b0adad;
+  }
+  
+  .ticket-count {
+    margin: 0 8px;
+  }
+  
+  .book-button {
+    padding: 8px 40px;
+    background-color: #818080;
+    color: white;
+    border: none;
+    border-radius: 1px;
+    cursor: pointer;
+  }
+  
+  .book-button:hover {
+    background-color: #b0adad;
+  }
+  

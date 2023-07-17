@@ -1,0 +1,91 @@
+.body-navbar {
+    margin: 0;
+    padding: 0;
+    /* position: sticky;
+    z-index: 9999;
+    top: 0; */
+    width: 100%;
+  }
+  
+  .container-navbar {
+    display: grid;
+    grid-template-columns: 0.8fr 2fr 0.8fr;
+    height: auto;
+    
+  }
+  
+  .section {
+    display: flex;
+    background-color: rgb(254, 254, 254);
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    background-color: #ffffff;
+    padding: 0 20px;
+  }
+  
+  .navbar-logo {
+    width: 59px;
+    height: 50px;
+  }
+  
+  .navbar-links {
+    align-items: center;
+    display: flex;
+    gap: 20px;
+    margin-left: -80px;
+  }
+  
+  .navbar-link {
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    color: #707070;
+    padding: 10px 15px; /* Add padding to create background on hover */
+    transition: background-color 0.3s; /* Add transition property for smooth color change */
+  }
+  
+  .navbar-link:hover {
+    background-color: #c78e41; /* Change the background color on hover */
+    color: #ffffff; /* Change the text color on hover */
+  }
+  
+  .navbar-status {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: -80px;
+  }
+  
+  .section-left {
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .section-middle {
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .section-right {
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .banner-container {
+    z-index: 100;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .banner-image {
+    width: 100%;
+    height: auto;
+  }

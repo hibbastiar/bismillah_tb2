@@ -1,0 +1,33 @@
+.body-gallery{
+    margin: 0;
+    padding: 0;
+}
+
+.banner-gallery {
+width: 100%;
+max-width: 100%;
+}
+
+.gallery {
+display: flex;
+justify-content: center;
+max-width: 100%;
+}
+
+.gallery .column {
+flex: 0 0 21%;
+padding: 5px;
+text-align: center;
+margin: 5px 5px 5px 5px; /* Adjust the margin value as desired */
+}
+
+.gallery img {
+max-width: 100%;
+height: auto;
+}
+
+.gallery-container{
+margin-top: 28px;
+margin-bottom: 350px;
+
+}
